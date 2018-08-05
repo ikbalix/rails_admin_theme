@@ -11,6 +11,7 @@ body.rails_admin .form-horizontal textarea {
 }
 
 body.rails_admin .sidebar-nav .dropdown-header {
+  display: none;
   color: #fff;
   padding: 10px 15px;
   font-size: 14px;
@@ -285,7 +286,7 @@ a.navbar-brand {
 }
 
 .sub-menu-container {
-  background: darken($primary, 5%);
+  background: $primary;
 
   li a {
     color: #EEE;
