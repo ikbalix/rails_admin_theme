@@ -11,7 +11,6 @@ body.rails_admin .form-horizontal textarea {
 }
 
 body.rails_admin .sidebar-nav .dropdown-header {
-  display: none;
   color: #fff;
   padding: 10px 15px;
   font-size: 14px;
@@ -186,11 +185,11 @@ body.rails_admin .sidebar-nav > .nav-stacked > li > a {
 }
 
 .dropdown-header:hover {
-  background: $secondary;
+  background: $primary;
 }
 
 .dropdown-header.active {
-  background: $secondary;
+  background: $primary;
 }
 
 .navbar-default .navbar-nav > li > a,
